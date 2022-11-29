@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/deploy-github/static/css/main.2ed5ff28.css",
-    "main.js": "/deploy-github/static/js/main.79ca38d9.js",
-    "static/js/787.28cb0dcd.chunk.js": "/deploy-github/static/js/787.28cb0dcd.chunk.js",
-    "static/media/imgHeader.jpg": "/deploy-github/static/media/imgHeader.1565fc4e05bc12a8da4d.jpg",
-    "index.html": "/deploy-github/index.html",
-    "main.2ed5ff28.css.map": "/deploy-github/static/css/main.2ed5ff28.css.map",
-    "main.79ca38d9.js.map": "/deploy-github/static/js/main.79ca38d9.js.map",
-    "787.28cb0dcd.chunk.js.map": "/deploy-github/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/todolist-react/static/css/main.ecbc38d0.css",
+    "main.js": "/todolist-react/static/js/main.91f7febc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/todolist-react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/imgHeader.jpg": "/todolist-react/static/media/imgHeader.1565fc4e05bc12a8da4d.jpg",
+    "index.html": "/todolist-react/index.html",
+    "main.ecbc38d0.css.map": "/todolist-react/static/css/main.ecbc38d0.css.map",
+    "main.91f7febc.js.map": "/todolist-react/static/js/main.91f7febc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/todolist-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ed5ff28.css",
-    "static/js/main.79ca38d9.js"
+    "static/css/main.ecbc38d0.css",
+    "static/js/main.91f7febc.js"
   ]
 }
