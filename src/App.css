@@ -1,0 +1,142 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* add css */
+
+#home-page-layout {
+    max-width: 28rem;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: rgba(229, 231, 235, 1);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+#header {
+    background-image: url(imgHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#header h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+#header p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+}
+
+#footer {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#footer a {
+    color: #282c34;
+    transition: all 0.3s ease-in-out;
+}
+
+#footer a:hover {
+    color: #61dafb;
+}
+
+body {
+    background-color: rgba(209, 213, 219, 1);
+}
+
+#calular {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+#calular input {
+    width: 30px;
+    border: none;
+}
+
+#enter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+#enter input {
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+}
+
+#result>div {
+    width: calc(100% - 30px);
+    /* background-color: #61dafb; */
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#result>div>span:last-child {
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    /* background-color: #282c34; */
+    color: red;
+}
+
+.active {
+    background-color: #61dafb;
+}
